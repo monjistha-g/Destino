@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+}
+html{
+    overflow-x: hidden;
+}
+
+.home{
+    background-image: url(Images/3.jpg);
+    background-size: cover;
+    height: 650px;
+    /* margin: 0;
+    padding: 0; */
+    /* background-blend-mode: screen; */
+}
+.nav{
+    display: flex;
+    background: #131A2F;
+    margin: auto;
+    justify-content: space-between;
+    line-height: 100px;
+    width: 1180px;
+    height: 120px;
+    position: fixed;
+    left: 80px;
+    top: 50px;
+
+}
+.nav_left{
+    height: 80px;
+}
+.nav_left img{
+    height: 80px;
+    width: 150px;
+    padding:10px 0px 0px 50px;
+}
+.nav_right{
+    /* background-color: red; */
+}
+.nav_right ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_right li{
+    padding: 0px 30px 0px 30px;
+    font-family: calibri ;
+}
+.nav_right a{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+}
+.nav_right a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.one{
+    background-color: red;
+    width: 50px;
+    height: 120px;
+    color: white;
+    text-align: center;
+}
+.nav_right .one a:hover{
+    width: 50px;
+    color: white;
+    text-align: center;
+}
+.one:hover{
+    background-color: rgb(236, 57, 57);
+}
+.discover{
+    color: rgba(197, 133, 29, 0.5);
+    font-size: 220px;
+    font-family: arial black;
+    margin: 50px;
+    
+}
+.discover p{
+    Position: sticky;
+    z-index: 1;
+}
+.discover .discover_in{
+    color: white;
+    font-size: 80px;
+    font-family: arial;
+    
+    position: relative;
+    bottom: 200px;
+    left: 255px;
+    z-index: 1;
+}
+.find{
+    background-image: url(Images/black-green-leaves-plants.jpg);
+    background-size: cover;
+    height: 298px;
+}
+.find .box5{
+    margin-right: 200px;
+    background-color: #bc2121;
+    width: 160px;
+    height: 60px;
+    padding: 20px;
+}
+.find1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.form1{
+    padding: 50px;
+}
+.form label{
+    color: white;
+}
+.form input{
+    background-color: rgba(0,0,0,0);
+}
+.form option{
+    background-color: rgba(0,0,0,0);
+}
+.form input button{
+    background-color: #fff;
+    color: #fff;
+}
+.destinations{
+    margin: 80px 80px 0px 80px;
+    height: 630px;
+    
+}
+/* .destinations .heading{
+    text-align: center;
+    font-size: 30px;
+} */
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Corbel Light;
+    margin-top: 120px;
+    font-weight: lighter;
+}
+.heading2{
+    font-size: 18px;
+    margin: 15px 0px 50px 0px;
+    color: gray;
+}
+.destinations .image{
+    display: flex;
+    height: 358px;
+    width: 264px;
+    justify-content: space-between;
+    margin-bottom: 104px;
+    
+
+}
+.destinations .image:hover{
+    cursor: pointer;
+}
+.destinations .image .image1{
+   padding: 10px 30px 0px 10px;
+}
+.destinations .image .image2{
+    padding: 10px 30px 0px 10px;
+ }
+ .destinations .image .image3{
+    padding: 10px 30px 0px 10px;
+ }
+ .destinations .image .image4{
+    padding: 10px 30px 0px 10px;
+ }
+
+.offers{
+    background-image: url(Images/peyzazhi-beautiful-pontoon.jpg);
+    height: 630px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.redbox{
+    background-color: rgba(255, 51, 51, 0.7);
+    height: 515px;
+    width: 496px;
+    margin-top: 50px;
+    color: white;
+    font-family: Corbel Light;
+}
+.box1{
+    position: relative;
+    top:50px;
+    white-space: pre;
+    font-size: 20px;
+}
+.box2{
+    font-size: 150px;
+    text-align: center;
+    font-family: Microsoft YaHei Light;
+    padding-top: 30px;
+}
+.box3{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.box4{
+    text-align: center;
+    margin: 10px 60px 20px 60px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.box5{
+    text-align: center;
+    font-size: 19px;
+    box-sizing: border-box;
+    background-color: #1b0c56;
+    width: 150px;
+    padding: 20px;
+    margin:auto;
+   
+}
+.box5 a{
+    text-decoration: none;
+    color: white;
+}
+.trip{
+    background-image: url(Images/photo-1641142330381-4070f26a9258.jpeg);
+    height: 600px;
+    /* filter: blur(0px); */
+    background-size: cover;
+    
+}
+.trip .heading{
+    color: white;
+    margin: 0;
+    padding-top: 155px;
+}
+.trip .heading2{
+    color: white;
+    
+}
+.trip .two{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+.two:hover{
+    color: #f8eaea;
+}
+.popular{
+    /* display: flex; */
+    
+}
+.popular .heading{
+    margin-top: 112px;
+    text-align: center;
+    
+}
+.popular .images{
+    display: flex;
+
+    width: 1140px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.popular .images img{
+    height: 198px;
+    width: 260px;
+    /* margin: 50px -50px -50px 75px; */
+    padding: 10px;
+    
+}
+.specialoffers{
+    /* background-color: red; */
+}
+.specialoffers .heading{
+    text-align: center;
+    font-size: 50px;
+}
+/* .specialoffers .image{
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 100px;
+    width: 100px;
+} */
+.specialoffers .image img{
+    height: 544px;
+    width: 320px;
+    padding-right: 5px;
+}
+/* .specialoffers .image span{
+    background-color: red;
+    box-sizing: border-box;
+    font-size: 30px;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    shape-margin: 20px;
+     padding: 50px; 
+} */
+.subscribe{
+    background-image: url(Images/black-green-leaves-plants.jpg);
+    height: 373px;
+    width: 1355px;
+    background-size: cover;
+    margin: 0;
+    padding-top: 0;
+}
+.subscribe .heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 105px;
+    
+}
+.subscribe .heading .d{
+    /* display: flex; */
+    margin-top: 30px;
+}
+.subscribe .heading .email{
+    width: 765px;
+    height: 56px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+    margin-left: 200px;
+    border: 1px solid white;
+}
+.subscribe .heading .box5{
+    float: right;
+    margin-right: 200px;
+    background-color: #bc2121;
+    width: 160px;
+    padding: 20px;
+}
+.box5 a:hover{
+    background-color: rgb(251, 76, 76);
+}
+.footer{
+    background-color: #080D1D;
+    height: 400px;
+    width: 1295px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: calibri;
+}
+.footer1{
+    color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    margin: 53px 0px 0px 85px;
+    text-align: justify;
+    /* background-color: #563131; */
+    line-height: 28px;
+
+}
+.footer1 p{
+    padding-right: 25px;
+}
+.footer1 img{
+    height: 100px;
+    width: 150px;
+    
+}
+.footer2{
+    color: white;
+    width: 400px;
+    /* background-color: #f51d1d; */
+}
+.footer2 p{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.footer2-1 img{
+    height: 80px;
+    width: 80px;
+    padding-bottom: 20px;
+}
+.footer2-1 span{
+    position: relative;
+    bottom: 85px;
+    left: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer2-1 .date{
+    color: red;
+    position: relative;
+    bottom: 80px;
+    left: 103px;
+    font-size: 16px;
+}
+.footer2-2 span{
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer2-2 .date{
+    color: red;
+    position: relative;
+    bottom: 65px;
+    left: 103px;
+    font-size: 16px;
+}
+.footer2-2 img{
+    height: 80px;
+    width: 80px;
+}
+.footer3{
+    color: white;
+    width: 400px;
+    /* background-color: #f29a9a; */
+}
+.footer3 p{
+    font-size: 30px;
+    padding: 75px 0px 50px 0px;
+}
+.box6{
+    display: inline-block;
+    margin: 8px;
+    width: 90px;
+    height: 38px;
+}
+.box6 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    
+}
+.box6 a:hover{
+    background-color: rgb(251, 76, 76);
+}
